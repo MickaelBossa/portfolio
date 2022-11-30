@@ -1,0 +1,14 @@
+.layoutContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.layoutContent {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}

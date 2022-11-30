@@ -1,0 +1,12 @@
+.navlinks {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #ffff;
+}
+
