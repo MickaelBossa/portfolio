@@ -22,3 +22,9 @@
   text-align: center;
 }
 
+.contactSection {
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 15vw;
+}
+

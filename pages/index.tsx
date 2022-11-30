@@ -4,15 +4,17 @@ import styles from '../styles/Home.module.css';
 
 // Next
 import Head from 'next/head';
+import Image from 'next/image';
 
 // Component
 import SocialNetworkButtons from '../components/ui/SocialNetworkButtons/SocialNetworkButtons';
 import SkillsColumns from '../components/ui/SkillsColumns/SkillsColumns';
 import ProjectsCards from '../components/ui/ProjectCards/ProjectsCards';
+import ContactForm from '../components/ui/ContactForm/ContactForm';
 
 export default function Home() {
     return (
-        <>
+        <div>
             <Head>
                 <title>Mickaël BOSSA - Web developer</title>
                 <meta
@@ -43,6 +45,27 @@ export default function Home() {
                     <ProjectsCards />
                 </section>
             </main>
-        </>
+            <section className={styles.contactSection}>
+                    <div>
+                    <h2 className={styles.subtitle}>Contact me</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Delectus suscipit minima consectetur non, excepturi ad
+                        sit? Corporis ullam, aspernatur neque quidem tempore
+                        voluptate assumenda deserunt officia aliquid in quaerat
+                        quasi!
+                    </p>
+                    <ContactForm />
+                    </div>
+                    <div>
+                    <Image
+                        src="/images/france-map-2.png"
+                        height={1000}
+                        width={800}
+                        alt='Map of France'
+                    />
+                    </div>
+                </section>
+        </div>
     );
 }
