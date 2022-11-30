@@ -7,7 +7,6 @@
 
 .title {
   text-align: left;
-  color: #fff;
 }
 
 .name {
@@ -19,6 +18,7 @@
   font-size: 2rem;
 }
 
-.socialNetworkIcons {
-  display: flex;
+.skillsTitle {
+  text-align: center;
 }
+

@@ -6,7 +6,8 @@ import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 
 // Component
-import SocialNetworkBtn from '../components/ui/SocialNetworkBtn/SocialNetworkBtn';
+import SocialNetworkButtons from '../components/ui/SocialNetworkButtons/SocialNetworkButtons';
+import SkillsColumns from '../components/ui/SkillsColumns/SkillsColumns';
 
 export default function Home() {
     return (
@@ -20,7 +21,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className=".container">
+            <main className="container">
                 <section className={styles.firstScreen}>
                     <h1 className={styles.title}>
                         Hey there! I'm
@@ -30,16 +31,11 @@ export default function Home() {
                             Lyon in France
                         </span>
                     </h1>
-                    <div className={styles.socialNetworkIcons}>
-                        <SocialNetworkBtn
-                            title="Github"
-                            src="/images/github-icon.svg"
-                        />
-                        <SocialNetworkBtn
-                            title="Linkedin"
-                            src="/images/linkedin-icon.svg"
-                        />
-                    </div>
+                    <SocialNetworkButtons />
+                </section>
+                <section>
+                    <h2 className={styles.skillsTitle}>Skills</h2>
+                    <SkillsColumns />
                 </section>
             </main>
         </>

@@ -1,0 +1,13 @@
+.skillsList {
+    padding: 0;
+}
+
+.skillContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.skillIcon {
+    margin-right: 0.5rem;
+}

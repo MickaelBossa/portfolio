@@ -1,5 +1,5 @@
 // Style
-import styles from './SocialNetworkBtn.module.css';
+import styles from './SocialNetworkButton.module.css';
 
 // Next
 import Link from 'next/link';

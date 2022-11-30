@@ -7,6 +7,4 @@
 .layoutContent {
     flex-grow: 1;
     display: flex;
-    width: 70%;
-    margin: 0 auto;
 }
