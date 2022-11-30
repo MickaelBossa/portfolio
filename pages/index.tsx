@@ -37,6 +37,7 @@ export default function Home() {
                     <h2 className={styles.skillsTitle}>Skills</h2>
                     <SkillsColumns />
                 </section>
+                <section></section>
             </main>
         </>
     );

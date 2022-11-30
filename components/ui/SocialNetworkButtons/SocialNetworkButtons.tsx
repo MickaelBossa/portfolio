@@ -5,16 +5,13 @@ import styles from './SocialNetworkButtons.module.css';
 import SocialNetworkButton from './SocialNetworkButton/SocialNetworkButton';
 
 export default function SocialNetworkButtons() {
-  return (
-    <div className={styles.socialNetworkIcons}>
-                        <SocialNetworkButton
-                            title="Github"
-                            src="/images/github-icon.svg"
-                        />
-                        <SocialNetworkButton
-                            title="Linkedin"
-                            src="/images/linkedin-icon.svg"
-                        />
-                    </div>
-  )
+    return (
+        <div className={styles.socialNetworkIcons}>
+            <SocialNetworkButton title="Github" src="/images/github-icon.svg" />
+            <SocialNetworkButton
+                title="Linkedin"
+                src="/images/linkedin-icon.svg"
+            />
+        </div>
+    );
 }
