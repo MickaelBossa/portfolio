@@ -1,0 +1,10 @@
+.cardContainer {
+    background-color: #262657;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.topIcons {
+    display: flex;
+    justify-content: space-between;
+}

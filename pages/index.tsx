@@ -8,6 +8,7 @@ import Head from 'next/head';
 // Component
 import SocialNetworkButtons from '../components/ui/SocialNetworkButtons/SocialNetworkButtons';
 import SkillsColumns from '../components/ui/SkillsColumns/SkillsColumns';
+import ProjectsCards from '../components/ui/ProjectCards/ProjectsCards';
 
 export default function Home() {
     return (
@@ -34,10 +35,13 @@ export default function Home() {
                     <SocialNetworkButtons />
                 </section>
                 <section>
-                    <h2 className={styles.skillsTitle}>Skills</h2>
+                    <h2 className={styles.subtitle}>Skills</h2>
                     <SkillsColumns />
                 </section>
-                <section></section>
+                <section>
+                    <h2 className={styles.subtitle}>Projects</h2>
+                    <ProjectsCards />
+                </section>
             </main>
         </>
     );
