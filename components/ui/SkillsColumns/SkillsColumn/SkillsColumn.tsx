@@ -18,7 +18,7 @@ export default function SkillsColumn({
             <ul className={styles.skillsList}>
                 {content.map((element) => (
                     <li key={content.indexOf(element)}>
-                        <Link className={styles.skillContainer} href="#">
+                        <div className={styles.skillContainer}>
                             <Image
                                 className={styles.skillIcon}
                                 src={element.icon}
@@ -27,7 +27,7 @@ export default function SkillsColumn({
                                 alt={`${element.skill} icon`}
                             />
                             {element.skill}
-                        </Link>
+                        </div>
                     </li>
                 ))}
             </ul>

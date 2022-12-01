@@ -2,6 +2,12 @@
     height: 3rem;
     width: 20.5vw;
     margin-bottom: 1vw;
+    border: 2px solid #5a4fcf;
+    background: none;
+}
+
+.firstLineInputs input::placeholder {
+    color: #fff;
 }
 
 #nameInput {
@@ -13,6 +19,12 @@
     width: 42vw;
     margin-bottom: 1vw;
     height: 3rem;
+    border: 2px solid #5a4fcf;
+    background: none;
+}
+
+.subjectInput::placeholder {
+    color: #fff;
 }
 
 .messageInput {
@@ -20,6 +32,12 @@
     min-width: 42vw;
     max-width: 42vw;
     min-height: 20vh;
+    border: 2px solid #5a4fcf;
+    background: none;
+}
+
+.messageInput::placeholder {
+    color: #fff;
 }
 
 .submitBtnContainer {
@@ -32,4 +50,16 @@
 .submitBtn {
     padding: 1rem;
     border-radius: 0.3rem;
+    border: 2px solid #5a4fcf;
+    box-shadow: inset 0 0 0 0 #ccccff;
+    -webkit-transition: ease-out 2s;
+    -moz-transition: ease-out 2s;
+    transition: ease-out 2s;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submitBtn:hover, .submitBtn:focus {
+    box-shadow: inset 400px 0 0 0 #5a4fcf;
 }

@@ -36,16 +36,16 @@ export default function Home() {
                     </h1>
                     <SocialNetworkButtons />
                 </section>
-                <section>
+                <section id='skills'>
                     <h2 className={styles.subtitle}>Skills</h2>
                     <SkillsColumns />
                 </section>
-                <section>
+                <section id='projects'>
                     <h2 className={styles.subtitle}>Projects</h2>
                     <ProjectsCards />
                 </section>
             </main>
-            <section className={styles.contactSection}>
+            <section className={styles.contactSection} id='contact'>
                 <div className={styles.contactForm}>
                     <h2 className={styles.subtitle}>Contact me</h2>
                     <p>
