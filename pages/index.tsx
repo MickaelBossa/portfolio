@@ -14,7 +14,7 @@ import ContactForm from '../components/ui/ContactForm/ContactForm';
 
 export default function Home() {
     return (
-        <div>
+        <>
             <Head>
                 <title>Mickaël BOSSA - Web developer</title>
                 <meta
@@ -36,36 +36,28 @@ export default function Home() {
                     </h1>
                     <SocialNetworkButtons />
                 </section>
-                <section id='skills'>
+                <section id="skills">
                     <h2 className={styles.subtitle}>Skills</h2>
                     <SkillsColumns />
                 </section>
-                <section id='projects'>
+                <section id="projects">
                     <h2 className={styles.subtitle}>Projects</h2>
                     <ProjectsCards />
                 </section>
+                <section className={styles.contactSection} id="contact">
+                    <div className={styles.contactForm}>
+                        <h2 className={styles.subtitle}>Contact me</h2>
+                        <p className={styles.contactTxt}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Delectus suscipit minima consectetur non,
+                            excepturi ad sit? Corporis ullam, aspernatur neque
+                            quidem tempore voluptate assumenda deserunt officia
+                            aliquid in quaerat quasi!
+                        </p>
+                        <ContactForm />
+                    </div>
+                </section>
             </main>
-            <section className={styles.contactSection} id='contact'>
-                <div className={styles.contactForm}>
-                    <h2 className={styles.subtitle}>Contact me</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Delectus suscipit minima consectetur non, excepturi ad
-                        sit? Corporis ullam, aspernatur neque quidem tempore
-                        voluptate assumenda deserunt officia aliquid in quaerat
-                        quasi!
-                    </p>
-                    <ContactForm />
-                </div>
-                <div>
-                    <Image
-                        src="/images/france-map-2.png"
-                        height={1000}
-                        width={800}
-                        alt="Map of France"
-                    />
-                </div>
-            </section>
-        </div>
+        </>
     );
 }
