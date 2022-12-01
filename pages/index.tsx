@@ -46,7 +46,7 @@ export default function Home() {
                 </section>
             </main>
             <section className={styles.contactSection}>
-                    <div>
+                <div className={styles.contactForm}>
                     <h2 className={styles.subtitle}>Contact me</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -56,16 +56,16 @@ export default function Home() {
                         quasi!
                     </p>
                     <ContactForm />
-                    </div>
-                    <div>
+                </div>
+                <div>
                     <Image
                         src="/images/france-map-2.png"
                         height={1000}
                         width={800}
-                        alt='Map of France'
+                        alt="Map of France"
                     />
-                    </div>
-                </section>
+                </div>
+            </section>
         </div>
     );
 }

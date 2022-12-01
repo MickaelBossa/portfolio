@@ -15,28 +15,28 @@ export default function ProjectCard({
     description: string;
 }) {
     return (
-        <Link href="#">
-            <div className={styles.cardContainer}>
-                <div className={styles.topIcons}>
+        <div className={styles.cardContainer}>
+            <div className={styles.topIcons}>
+                <Image
+                    src={link}
+                    height={30}
+                    width={30}
+                    alt={`${title} icon`}
+                />
+
+                <Link href="#">
                     <Image
-                        src={link}
+                        src="/images/git-icon.svg"
                         height={30}
                         width={30}
-                        alt={`${title} icon`}
+                        alt="Github icon"
                     />
-
-                    <Link href="#">
-                        <Image
-                            src="/images/git-icon.svg"
-                            height={30}
-                            width={30}
-                            alt="Github icon"
-                        />
-                    </Link>
-                </div>
+                </Link>
+            </div>
+            <Link href="#">
                 <h3>{title}</h3>
                 <p>{description}</p>
-            </div>
-        </Link>
+            </Link>
+        </div>
     );
 }

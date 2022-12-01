@@ -1,0 +1,35 @@
+.firstLineInputs input {
+    height: 3rem;
+    width: 20.5vw;
+    margin-bottom: 1vw;
+}
+
+#nameInput {
+    margin-right: 1vw;
+}
+
+.subjectInput {
+    display: block;
+    width: 42vw;
+    margin-bottom: 1vw;
+    height: 3rem;
+}
+
+.messageInput {
+    display: block;
+    min-width: 42vw;
+    max-width: 42vw;
+    min-height: 20vh;
+}
+
+.submitBtnContainer {
+    margin-top: 2rem;
+    width: 42vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submitBtn {
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
