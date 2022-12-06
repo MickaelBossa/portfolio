@@ -12,7 +12,7 @@ export default function Header() {
                     <li>
                         <Link
                             className={styles.navlink}
-                            href="#skills"
+                            href="/#skills"
                             scroll={false}
                         >
                             01- Skills
@@ -21,7 +21,7 @@ export default function Header() {
                     <li>
                         <Link
                             className={styles.navlink}
-                            href="#projects"
+                            href="/#projects"
                             scroll={false}
                         >
                             02- Projects
@@ -30,14 +30,14 @@ export default function Header() {
                     <li>
                         <Link
                             className={styles.navlink}
-                            href="#contact"
+                            href="/#contact"
                             scroll={false}
                         >
                             03- Contact
                         </Link>
                     </li>
                     <li>
-                        <Link className={styles.navlink} href="#">
+                        <Link className={styles.navlink} href="/admin">
                             04- Blog
                         </Link>
                     </li>
