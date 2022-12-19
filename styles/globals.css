@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html body {
+        @apply bg-[#1d1d20] text-white;
+    }
+}
+
+@layer components {
+    .headerLinkContainer {
+        @apply py-4 md:py-0 md:mr-6;
+    }
+
+    .headerLink {
+        @apply text-sm uppercase font-semibold w-full hover:text-purple-400;
+    }
+}
