@@ -14,6 +14,6 @@
     }
 
     .headerLink {
-        @apply text-sm uppercase font-semibold w-full hover:text-purple-400;
+        @apply text-sm uppercase font-semibold w-full hover:text-[#5A4FCF];
     }
 }
