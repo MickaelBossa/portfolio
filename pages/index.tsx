@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Header from '../components/Header';
-import Banner from '../components/Banner';
-import SkillsColumn from '../components/SkillsColumn';
+import Header from '../components/Header/Header';
+import Banner from '../components/Banner/Banner';
+import SkillsColumns from '../components/SkillsColumns/SkillsColumns';
 
 const Home: NextPage = () => {
     return (
@@ -18,10 +18,10 @@ const Home: NextPage = () => {
                 <Banner />
 
                 <section>
-                    <h2 className="text-center font-semibold text-2xl md:text-4xl">
+                    <h2 className="text-center font-semibold text-3xl md:text-5xl">
                         Compétences
                     </h2>
-                    <SkillsColumn />
+                    <SkillsColumns />
                 </section>
             </main>
 
