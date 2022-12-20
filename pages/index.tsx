@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Header from '../components/Header';
 import { FaBeer } from 'react-icons/fa';
+import Banner from '../components/Banner';
 
 const Home: NextPage = () => {
     return (
@@ -13,8 +14,8 @@ const Home: NextPage = () => {
 
             <Header />
 
-            <main>
-                
+            <main className='md:max-w-7xl md:mx-auto'>
+                <Banner />
             </main>
 
             {/* FOOTER */}
