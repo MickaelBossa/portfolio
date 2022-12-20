@@ -2,15 +2,15 @@ import { ImGithub, ImLinkedin } from 'react-icons/im';
 
 export default function Banner() {
     return (
-        <div className="ml-10 h-screen">
+        <div className="h-screen">
             <div className='relative top-1/3'>
                 <h1 className="text-left text-xl font-semibold lg:text-3xl">
                     Bienvenue sur mon portfolio ! Je m'appelle,{' '}
-                    <strong className="text-[#5A4FCF] block text-5xl my-2 md:text-5xl lg:text-8xl">
+                    <strong className="text-[#5A4FCF] block text-5xl my-2 md:text-5xl lg:text-7xl xl:text-8xl">
                         Mickaël BOSSA
                     </strong>
                     Je suis un développeur front-end autodidacte basé près de
-                    Lyon
+                    Lyon.
                 </h1>
                 <div className="flex space-x-4 mt-4">
                     <a
