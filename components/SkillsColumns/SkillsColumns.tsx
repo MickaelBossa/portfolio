@@ -17,9 +17,9 @@ export default function SkillsColumn() {
         <div>
             <div className="grid grid-cols-2 md:grid-cols-4">
                 <div>
-                    <h3 className="skillTitle">Front-end</h3>
+                    <h3 className="skillsTitle">Front-end</h3>
                     <div className="flex justify-center mt-3">
-                        <ul>
+                        <ul className='mb-5 lg:mb-16'>
                             <li className="skillContainer">
                                 <SiTypescript className="mr-3" />
                                 Typescript
@@ -44,9 +44,9 @@ export default function SkillsColumn() {
                     </div>
                 </div>
                 <div>
-                    <h3 className="skillTitle">Back-end</h3>
+                    <h3 className="skillsTitle">Back-end</h3>
                     <div className="flex justify-center mt-3">
-                        <ul>
+                        <ul className='mb-5 lg:mb-16'>
                             <li className="skillContainer">
                                 <SiNodedotjs className="mr-3" />
                                 Node.js
@@ -59,9 +59,9 @@ export default function SkillsColumn() {
                     </div>
                 </div>
                 <div>
-                    <h3 className="skillTitle">Design</h3>
+                    <h3 className="skillsTitle">Design</h3>
                     <div className="flex justify-center mt-3">
-                        <ul>
+                        <ul className='mb-5 lg:mb-16'>
                             <li className="skillContainer">
                                 <SiFigma className="mr-3" />
                                 Figma
@@ -78,9 +78,9 @@ export default function SkillsColumn() {
                     </div>
                 </div>
                 <div>
-                    <h3 className="skillTitle">Autres</h3>
+                    <h3 className="skillsTitle">Autres</h3>
                     <div className="flex justify-center mt-3">
-                        <ul>
+                        <ul className='mb-7 lg:mb-16'>
                             <li className="skillContainer">
                                 <SiGithub className="mr-3" />
                                 Git

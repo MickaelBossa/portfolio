@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '../components/Header/Header';
 import Banner from '../components/Banner/Banner';
 import SkillsColumns from '../components/SkillsColumns/SkillsColumns';
+import ProjectCards from '../components/ProjectCards/ProjectCards';
 
 const Home: NextPage = () => {
     return (
@@ -17,11 +18,21 @@ const Home: NextPage = () => {
             <main className="max-w-md mx-auto md:max-w-xl md:mx-auto lg:max-w-4xl xl:max-w-6xl">
                 <Banner />
 
-                <section>
-                    <h2 className="text-center font-semibold text-3xl md:text-5xl">
+                <section className='mb-10'>
+                    <h2 className="subTitle">
                         Compétences
                     </h2>
                     <SkillsColumns />
+                </section>
+
+                <section className='mb-10'>
+                    <h2 className='subTitle'>Projets professionels</h2>
+                    <ProjectCards workProject={true} />
+                </section>
+
+                <section className='mb-10'>
+                    <h2 className='subTitle'>Projets personnels</h2>
+                    <ProjectCards workProject={false} />
                 </section>
             </main>
 

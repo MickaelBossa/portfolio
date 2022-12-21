@@ -1,0 +1,50 @@
+[
+    {
+        "workProject": true,
+        "title": "Boutique e-commerce",
+        "content": "Boutique e-commerce réalisé à l'aide du CMS Prestashop pour une armurerie/sellerie avec la société Borino Games.",
+        "projectSrc": "/sellerie.png",
+        "github": false,
+        "websiteLink": "https://sellerie-peyronequitation.fr/"
+    },
+    {
+        "workProject": true,
+        "title": "Site vitrine",
+        "content": "Site vitrine réalisé en html, css et javascript vanilla pour une masseur équin et canin avec la société Borino Games.",
+        "projectSrc": "/masseur_equin_canin.png",
+        "github": false,
+        "websiteLink": "https://masseur-equin-canin.fr/"
+    },
+    {
+        "workProject": true,
+        "title": "Application mobile",
+        "content": "Application mobile réalisée en React Native avec la société Borino Games.",
+        "projectSrc": "/appino.png",
+        "github": false,
+        "websiteLink": "https://play.google.com/store/apps/details?id=com.borinogames.appino&hl=fr&gl=FR"
+    },
+    {
+        "workProject": true,
+        "title": "Application mobile",
+        "content": "Application mobile réalisée en React Native avec la société Borino Games.",
+        "projectSrc": "/old_story.png",
+        "github": false,
+        "websiteLink": "https://play.google.com/store/apps/details?id=com.drinkstory&hl=fr&gl=FR"
+    },
+    {
+        "workProject": false,
+        "title": "Airbnb clone",
+        "content": "Clone de airbnb réalisé avec Next.js, Typescript et Tailwindcss.",
+        "projectSrc": "/airbnb_clone.png",
+        "github": "https://github.com/MickaelBossa/airbnb-clone",
+        "websiteLink": "https://kamielo-airbnb-clone.vercel.app/"
+    },
+    {
+        "workProject": false,
+        "title": "Netflix clone",
+        "content": "Clone de netflix réalisé avec Next.js, Typescript, Tailwindcss et firebase.",
+        "projectSrc": "/netflix_clone.png",
+        "github": "https://github.com/MickaelBossa/Netflix-clone",
+        "websiteLink": "https://kamielo-netflix-clone.vercel.app/"
+    }
+]

@@ -18,11 +18,15 @@
     }
 
     .socialNetworkBtn {
-        @apply flex items-center bg-transparent px-4 py-1 rounded-full text-xl text-[#5A4FCF] border-[#5A4FCF] border-2 hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#5A4FCF] duration-[700ms,1000ms] transition-[color,box-shadow] md:px-6 md:py-2;
+        @apply flex justify-center items-center bg-transparent px-4 py-1 rounded-full text-xl text-[#5A4FCF] border-[#5A4FCF] border-2 hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#5A4FCF] duration-[700ms,1000ms] transition-[color,box-shadow] md:px-6 md:py-2;
     }
 
-    .skillTitle {
-        @apply text-center font-semibold uppercase text-xl mt-7 text-[#5A4FCF] md:mt-16;
+    .subTitle {
+        @apply text-center font-semibold text-3xl mb-5 md:mb-16 md:text-5xl;
+    }
+
+    .skillsTitle {
+        @apply text-center font-semibold uppercase text-xl text-[#5A4FCF];
     }
 
     .skillContainer {
