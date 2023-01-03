@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Front-end",
+        "skills": [
+            {
+                "skill": "Typescript",
+                "icon": "SiTypescript"
+            },
+            {
+                "skill": "Next.js",
+                "icon": "SiNextdotjs"
+            },
+            {
+                "skill": "React",
+                "icon": "SiReact"
+            },
+            {
+                "skill": "React Native",
+                "icon": "SiReact"
+            },
+            {
+                "skill": "Tailwindcss",
+                "icon": "SiTailwindcss"
+            }
+        ]
+    },
+    {
+        "title": "Back-end",
+        "skills": [
+            {
+                "skill": "Node.js",
+                "icon": "SiNodedotjs"
+            },
+            {
+                "skill": "MariaDB",
+                "icon": "SiMariadb"
+            }
+        ]
+    },
+    {
+        "title": "Design",
+        "skills": [
+            {
+                "skill": "Figma",
+                "icon": "SiFigma"
+            },
+            {
+                "skill": "Photoshop",
+                "icon": "SiAdobephotoshop"
+            },
+            {
+                "skill": "Illustrator",
+                "icon": "SiAdobeillustrator"
+            }
+        ]
+    },
+    {
+        "title": "Autres",
+        "skills": [
+            {
+                "skill": "Git",
+                "icon": "SiGithub"
+            },
+            {
+                "skill": "Prestashop",
+                "icon": "SiPrestashop"
+            }
+        ]
+    }
+]
