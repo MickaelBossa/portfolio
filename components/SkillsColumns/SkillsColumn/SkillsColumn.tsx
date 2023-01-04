@@ -1,10 +1,9 @@
 import skillsData from '../../../constants/skillsData.json';
-import * as SimpleIcon from 'react-icons/si';
-import React, { ReactElement } from 'react';
+import * as AllIcons from 'react-icons/si';
 
-const Icon = ({ iconName } : { iconName: string }) => {
-    const icon = React.createElement(SimpleIcon[iconName]);
-    return <div className="mr-3">{icon}</div>;
+const Icon = ({ iconName }: { iconName: keyof typeof AllIcons }) => {
+    const IconComponent = AllIcons[iconName];
+    return <div className="mr-3">{<IconComponent />}</div>;
 };
 
 export default function SkillsColumn() {
@@ -18,7 +17,11 @@ export default function SkillsColumn() {
                             {column.skills.map((skill) => (
                                 <li className="skillContainer">
                                     <>
-                                        <Icon iconName={skill.icon} />
+                                        <Icon
+                                            iconName={
+                                                skill.icon as keyof typeof AllIcons
+                                            }
+                                        />
                                         {skill.skill}
                                     </>
                                 </li>
