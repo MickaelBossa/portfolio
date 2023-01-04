@@ -5,6 +5,7 @@ import Banner from '../components/Banner/Banner';
 import SkillsColumns from '../components/SkillsColumns/SkillsColumns';
 import ProjectCards from '../components/ProjectCards/ProjectCards';
 import ContactForm from '../components/ContactForm/ContactForm';
+import Footer from '../components/Footer/Footer';
 
 const Home: NextPage = () => {
     return (
@@ -40,7 +41,7 @@ const Home: NextPage = () => {
                 </section>
             </main>
 
-            {/* FOOTER */}
+            <Footer />
         </>
     );
 };
