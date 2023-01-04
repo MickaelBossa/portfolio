@@ -24,7 +24,7 @@ export default function ProjectCard({
                 <a href={github} target={'_blank'}>
                     <SiGithub
                         style={{ width: '30px', height: '30px' }}
-                        className="relative top-5 z-50 left-[90%] cursor-pointer bg-black/50 rounded-full hover:shadow-xl hover:scale-110 transition duration-150 hover:text-[#5A4FCF] hover:bg-transparent"
+                        className="relative top-5 z-40 left-[90%] cursor-pointer bg-black/50 rounded-full hover:shadow-xl hover:scale-110 transition duration-150 hover:text-[#5A4FCF] hover:bg-transparent"
                     />
                 </a>
             )}
