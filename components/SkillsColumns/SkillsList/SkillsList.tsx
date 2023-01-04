@@ -6,24 +6,25 @@ const Icon = ({ iconName }: { iconName: keyof typeof AllIcons }) => {
     return <div className="mr-3">{<IconComponent />}</div>;
 };
 
-export default function SkillsColumn() {
+export default function SkillsList() {
     return (
         <>
             {skillsData.map((column) => (
-                <div>
+                <div key={column.title}>
                     <h3 className="skillsTitle">{column.title}</h3>
                     <div className="flex justify-center mt-3">
                         <ul className="mb-5 lg:mb-16">
                             {column.skills.map((skill) => (
-                                <li className="skillContainer">
-                                    <>
-                                        <Icon
-                                            iconName={
-                                                skill.icon as keyof typeof AllIcons
-                                            }
-                                        />
-                                        {skill.skill}
-                                    </>
+                                <li
+                                    className="skillContainer"
+                                    key={skill.skill}
+                                >
+                                    <Icon
+                                        iconName={
+                                            skill.icon as keyof typeof AllIcons
+                                        }
+                                    />
+                                    {skill.skill}
                                 </li>
                             ))}
                         </ul>
